@@ -3,9 +3,13 @@ TEMPLATE = app
 QT += qml quick
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    src/appengine.cpp \
+    src/appmodel.cpp \
+    src/audio/audiomanager.cpp \
+    src/audio/audiomodel.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += qml/qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -28,3 +32,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    hdr/appengine.h \
+    hdr/appmodel.h \
+    hdr/audio/audiomanager.h \
+    hdr/audio/audiomodel.h

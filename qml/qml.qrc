@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+    <qresource prefix="/common">
+        <file>AudioTitle.qml</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>AudioPlayback.qml</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>
