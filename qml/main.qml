@@ -14,6 +14,11 @@ Window {
 
     }
 
+    Image {
+        id: dimImage
+        source: "qrc:/images/bg_geely_c.png"
+    }
+
     AudioPlayback {
         anchors.fill: parent
     }

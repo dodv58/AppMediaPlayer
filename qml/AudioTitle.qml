@@ -5,9 +5,6 @@ Item {
     width: parent.width
     height: 88
 
-    Rectangle{
-        anchors.fill: parent
-        color: "black"
-    }
+
 
 }

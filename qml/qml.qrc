@@ -8,5 +8,4 @@
     <qresource prefix="/audio">
         <file>AudioPlayback.qml</file>
     </qresource>
-    <qresource prefix="/images"/>
 </RCC>

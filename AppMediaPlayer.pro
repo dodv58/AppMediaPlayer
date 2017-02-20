@@ -9,7 +9,8 @@ SOURCES += main.cpp \
     src/audio/audiomanager.cpp \
     src/audio/audiomodel.cpp
 
-RESOURCES += qml/qml.qrc
+RESOURCES += qml/qml.qrc \
+    resources/images.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
